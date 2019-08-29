@@ -1,0 +1,83 @@
+{
+	"myProfile": {
+		"ANDROID": "xpath=//*[@text='MY PROFILE'] | //*[contains(@text,'MY PROFILE')] |//*[contains(@text,'My Profile')]"
+	},
+	"changePassWordBtn": {
+		"ANDROID": "xpath=//*[@id='change_password'] | //*[@text='CHANGE PASSWORD']"
+	},
+	"editName": {
+		"ANDROID": "xpath=//*[contains(@text,'EDIT NAME')] "
+	},
+	"oldPasswordTextBox": {
+		"ANDROID": "xpath=//*[@id='old_password'] | //*[@resource-id='com.zivame.consumer:id/old_password']"
+	},
+	"newPasswordTextBox": {
+		"ANDROID": "xpath=//*[@id='new_password'] | //*[@resource-id='com.zivame.consumer:id/new_password']"
+	},
+	"saveProfileBtn": {
+		"ANDROID": "xpath=//android.widget.TextView[@id='view_apply' or @resource-id='com.zivame.consumer:id/view_apply']"
+	},
+	"passwordUpdateMsg": {
+		"ANDROID": "xpath=//*[contains(@text,'Your password has been changed successfully. Use your new password to login next time.')] | //*[@id='error_or_success_message'] |//*[@resource-id='com.zivame.consumer:id/error_or_success_message']"
+	},
+	"toolBarTiltle": {
+		"ANDROID": "xpath=//*[@id='toolbar_title'] | //*[@resource-id='com.zivame.consumer:id/toolbar_title']"
+	},
+	"searchFor": {
+		"ANDROID": "xpath=//*[@id='action_search'] | //*[@resource-id='com.zivame.consumer:id/action_search']"
+	},
+	"searchTxtBox": {
+		"ANDROID": "xpath=//*[@id='et_search'] | //*[@resource-id='com.zivame.consumer:id/et_search']"
+	},
+	"searchSuggestion": {
+		"ANDROID": "xpath=(//*[@id='suggestion_list']/*/*/*[@id='tv_search_str'])[2] | //*[@text='activewear in NEW ARRIVALS'] | //*[contains(@text,'NEW ARRIVALS')]"
+	},
+	"selectItem": {
+		"ANDROID": "xpath=//*[contains(@text,'Zelocity')] | (//*[@id='list' and @class='android.support.v7.widget.RecyclerView']/*/*/*/*/*/*/*[@id='effective_price'])[1] | (//*[@id='list' and @class='android.support.v7.widget.RecyclerView']/*/*/*/*/*/*[@id='product_name'])[1]"
+	},
+	"addToCartBtn": {
+		"ANDROID": "xpath=//*[@text='ADD TO CART'] | //*[@id='footer_add_to_cart'] | //*[@resource-id='com.zivame.consumer:id/footer_add_to_cart']"
+	},
+	"selectSmall": {
+		"ANDROID": "xpath=//*[@text='SMALL'] | //*[contains(@text,'SMALL')] | (//*[@id='sizes_grid_view']/*/*[@id='size_tv'])[1]"
+	},
+	"getNotifiedTxt": {
+		"ANDROID": "xpath=//*[@resource-id='com.zivame.consumer:id/view_title'] | //*[@text='GET NOTIFIED']"
+	},
+	"selectMedium": {
+		"ANDROID": "xpath=//*[@text='MEDIUM'] | //*[contains(@text,'MEDIUM')] | (//*[@id='sizes_grid_view']/*/*[@id='size_tv'])[2]"
+	},
+	"selectLarge": {
+		"ANDROID": "xpath=//*[@text='LARGE'] | //*[contains(@text,'LARGE')] | (//*[@id='sizes_grid_view']/*/*[@id='size_tv'])[3]"
+	},
+	"activeCart": {
+		"ANDROID": "xpath=//*[@id='action_cart'] | //*[@resource-id='com.zivame.consumer:id/action_cart']"
+	},
+	"verifyContinueToCheckOutBtn": {
+		"ANDROID": "xpath=//*[contains(@text,'CHECKOUT')] | //*[@text='CONTINUE TO CHECKOUT'] | //*[@resource-id='com.zivame.consumer:id/checkout'] | //*[@id='checkout']"
+	},
+	"removeFromCart": {
+		"ANDROID": "xpath=//*[@id='options']"
+	},
+	"removeItem": {
+		"ANDROID": "xpath=//*[@text='REMOVE ITEM'] | //*[@id='remove_item']"
+	},
+	"sortBtn": {
+		"ANDROID": "xpath=//*[@id='view_sortby'] | //*[@resource-id='com.zivame.consumer:id/view_sortby'] | //*[@text='SORT']"
+	},
+	"sortPriceLowToHigh": {
+		"ANDROID": "xpath=//*[@text='PRICE LOW TO HIGH'] | (//*[@id='popup_list']/*/*/*[@id='popupwindow_item_text'])[2]"
+	},
+	"selectAsWishList": {
+		"ANDROID": "xpath=//*[@text=''] | //*[@id='footer_wishlist'] | //*[@resource-id='com.zivame.consumer:id/footer_wishlist']"
+	},
+	"addtoCollection": {
+		"ANDROID": "xpath=//*[@text='ADD TO THIS COLLECTION'] | //*[@resource-id='com.zivame.consumer:id/add_to_collection']"
+	},
+	"selectWishLists": {
+		"ANDROID": "xpath=//*[@id='action_whishlist'] | //*[@resource-id='com.zivame.consumer:id/action_whishlist']"
+	},
+	"noOfItems": {
+		"ANDROID": "xpath=//*[contains(@text,'items')] | //*[@resource-id='com.zivame.consumer:id/collection_products_count']"
+	}
+}

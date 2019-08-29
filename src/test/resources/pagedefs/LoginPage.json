@@ -1,0 +1,29 @@
+{
+	"myProfile": {
+		"ANDROID": "xpath=//*[@text='MY PROFILE'] |  //*[contains(@text,'MY PROFILE')] |//*[contains(@text,'My Profile')]"
+	},
+	"hamburgerMenu": {
+		"ANDROID": "xpath=//*[@class='android.widget.ImageButton']"
+	},
+	"loginRegisterBtn": {
+		"ANDROID": "xpath=//*[@text='LOGIN / REGISTER'] | //*[@resource-id='com.zivame.consumer:id/login_register_or_user_name'] |   //*[@id='login_register_or_user_name']"
+	},
+	"usernameTxt": {
+		"ANDROID": "xpath=//*[@id='email_or_phone'] | //*[@resource-id='com.zivame.consumer:id/email_or_phone']"
+	},
+	"NextBtn": {
+		"ANDROID": "xpath=//*[contains(text(),'NEXT')]| //*[@resource-id='com.zivame.consumer:id/login_next'] | //*[@id='login_next']"
+	},
+	"passwordTxt": {
+		"ANDROID": "xpath=//*[@id='login_password'] | //*[@resource-id='com.zivame.consumer:id/login_password']"
+	},
+	"loginBtn": {
+		"ANDROID": "xpath=//*[@text='LOGIN'] | //*[@resource-id='com.zivame.consumer:id/view_login'] | //*[@id='view_login']"
+	},
+	"verifyZivameTxt": {
+		"ANDROID": "xpath=//*[@id='toolbar_title'] | //*[@resource-id='com.zivame.consumer:id/toolbar_title']"
+	},
+	"skipPopUpBtn": {
+		"ANDROID": "xpath=//*[@id='skip_now'] | //*[@text='SKIP'] | //*[@resource-id='com.zivame.consumer:id/skip_now']"
+	}
+}

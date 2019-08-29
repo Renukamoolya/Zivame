@@ -1,0 +1,68 @@
+{	
+	"createCollection": {
+		"DESKTOP_WEB": "xpath=//div[contains(text(),'New Collection')]"
+	},
+	"addCollection": {
+		"DESKTOP_WEB": "xpath=//input[@placeholder='Add a collection name']"
+	},
+	"btnSave": {
+		"DESKTOP_WEB": "xpath=//button[@type='button']"
+	},
+	"addAsset": {
+		"DESKTOP_WEB": "xpath=//div[contains(text(),'ASSET')]"
+	},
+	"btnAddStreams": {
+		"DESKTOP_WEB": "xpath=(//button[contains(text(),'Add')])[1]"
+	},
+	"collection1": {
+		"DESKTOP_WEB": "xpath=//span[contains(text(),'Start')]"
+	},
+	"saveCollection": {
+		"DESKTOP_WEB": "xpath=(//span[.='Save'])[2]"
+	},
+	"uploadBackground": {
+		"DESKTOP_WEB": "xpath=//input[@type='file']"
+	},
+	"btnUpload":{
+		"DESKTOP_WEB":"xpath=//button[.='Upload']"
+	},
+	"btnSaveChange": {
+		"DESKTOP_WEB": "xpath=//button[.='Save Change']"
+	},
+	"btnCollaborate": {
+		"DESKTOP_WEB": "xpath=//div[contains(text(),'COLLABORATE')]"
+	},
+	"btnUserradio":{
+		"DESKTOP_WEB":"classname=media-right"
+	},
+	"btnShare":{
+		"DESKTOP_WEB":"xpath=//span[contains(text(),'Share')]"	
+	},
+	"txtTo":{
+		"DESKTOP_WEB":"xpath=//label[.='TO']/..//input"
+	},
+	"txtSubject":{
+		"DESKTOP_WEB":"xpath=//input[@placeholder='Enter subject']"
+	},
+	"btnSend":{
+		"DESKTOP_WEB":"xpath=//span[.='Send']"
+	},
+	"gmailid" :{
+		"DESKTOP_WEB":"xpath=//input[@id='Email' or @id='identifierId']"
+	},
+	"gmailnextbutton":{
+		"DESKTOP_WEB":"xpath=//span[text()='Next']"
+	},
+	"gmailpassword":{
+		"DESKTOP_WEB":"name=password"
+	},
+	"tabMailList":{
+		"DESKTOP_WEB":"xpath=//div[contains(@class,'gE hI')]"
+	},
+	"linkAsset":{
+		"DESKTOP_WEB":"xpath=//div[contains(@class,'NonEditable')]//td"
+	},
+	"linkHome":{
+		"DESKTOP_WEB":"xpath=//a[@href='/home']"
+	}
+}
